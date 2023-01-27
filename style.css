@@ -82,6 +82,7 @@ header h1 {
 table {
     width: 100%;
     border-collapse: collapse;
+    box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
 }
 
 table * {
@@ -136,4 +137,11 @@ td.user a {
 
 td.user a p {
     font-weight: bold;
+}
+
+td .remove{
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
 }

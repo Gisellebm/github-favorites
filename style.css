@@ -9,14 +9,15 @@
     --ff-primary: 'Poppins', sans-serif;
     --text-color: #303030;
 
-    --hue: 194;
-    --primary-color:  hsl(var(--hue), 100%, 63%);
+    --hue: 250;
+    --primary-color:  hsl(var(--hue), 100%, 70%);
 }
 
 body {
     font-size: 1.6rem;
     color: var(--text-color);
-    background-color: rgb(250, 254, 255);
+    background-color: rgb(204, 204, 251);
+    /*background-color: rgb(38, 38, 53);*/
 }
 
 body * {
